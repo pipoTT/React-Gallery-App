@@ -114,7 +114,7 @@ function PhotoUploader() {
                 <div className="outer-grid">
                   {imgData.map((image, index) => (
                     <div key={index} className="inner-grid">
-                      <img
+                      {/* <img
                         src={image.url}
                         alt={`Uploaded ${index}`}
                         height="100px"
@@ -125,7 +125,7 @@ function PhotoUploader() {
                       </p>
                       <p>
                         <strong>Description:</strong> {image.description}
-                      </p>
+                      </p> */}
                     </div>
                   ))}
                 </div>

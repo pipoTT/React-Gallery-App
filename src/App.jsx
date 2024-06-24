@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import PhotoUploader from "./firebase/PhotoUploader";
 import "./App.css";
 import GalleryPage from "./GalleryPage";
+import DetailsPage from "./DetailsPage";
 const App = () => {
   return (
     <div className="App">
